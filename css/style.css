@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+    box-sizing: border-box;
+}
+
+body {
+    background: #2a2f4d;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #333;
+}
+
+.main {
+    background: rgb(248, 252, 233);
+    width: 90%;
+    max-width: 1500px;
+    margin: 100px auto 5;
+    padding: 30px;
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 50px;
+}
+
+main h1 {
+    font-weight: 25px;
+    color: black;
+    font-weight: 600;
+    border-bottom: 1px solid black;
+    padding-bottom: 30px;
+}
+
+.cabecalho {
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+#textCab {
+  font-size: 3em;
+  color: #12a3a8;
+}
+
+.secPergunta {
+  margin-bottom: 30px;
+}
+
+#pergunta {
+  font-size: 1.7em;
+  margin-bottom: 100px;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.buttonsResp {
+  display: grid;
+  gap: 20px;
+}
+
+.buttonsResp button {
+  background-color: rgb(248, 252, 233);
+  color: #131036;
+  padding: 15px;
+  border: 1px solid black;
+  border-radius: 5px;
+  font-size: 1.5em;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-weight: 500;
+  width: 100%;
+}
+
+.buttonsResp button:hover {
+  background-color: #2a2f4d;
+  color: whitesmoke;
+}
+
+.buttonProx {
+  text-align: center;
+  margin-top: 30px;
+}
+
+#btnProx {
+  background-color: #12a3a8;
+  color: #fff;
+  padding: 12px 30px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.2em;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#btnProx:hover {
+  background-color: #2a2f4d;
+}
