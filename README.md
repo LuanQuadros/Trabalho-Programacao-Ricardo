@@ -8,7 +8,7 @@ Este é um projeto acadêmico que implementa um **quiz interativo** de conhecime
 
 Você pode acessar o quiz já publicado no GitHub Pages neste link:
 
-🔗 [Quiz no ar – Trabalho Programação Ricardo](https://luanquadros.github.io/Trabalho-Programa-o-Ricardo/)
+🔗 [Quiz no ar – Trabalho Programação Ricardo][(https://luanquadros.github.io/Trabalho-Programacao-Ricardo/)]
 
 ---
 
