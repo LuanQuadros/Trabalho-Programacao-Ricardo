@@ -10,13 +10,14 @@ const respostas =
 ]
 const btnProx = document.getElementById('btnProx')
 const textCab = document.getElementById('textCab')
+const imgPergunta = document.getElementById('imgPergunta')
 
 let indiceAtual = 0
 const respUsuario = new Array(perguntas.length).fill(null)
 
 
 /**
- * Carrega a pergunta atual na tela e atualiza os botões de resposta
+ * Carrega a pergunta e a imagem atual na tela e atualiza os botões de resposta
  * Marca visualmente a escolha do usuario
  * Faz a validação das opções
  * Salva a resposta do usuario
@@ -31,8 +32,11 @@ const respUsuario = new Array(perguntas.length).fill(null)
 function carregarPerguntas()
 {
     const perguntaAtual = perguntas[indiceAtual]
+
     textCab.textContent = `Quiz Interativo Geral - Pergunta ${indiceAtual + 1} de ${perguntas.length}`
     pergunta.textContent = perguntaAtual.pergunta
+
+    imgPergunta.src = perguntaAtual.imagem
 
     perguntaAtual.opcoes.forEach((opcao, indice) => {
         respostas[indice].textContent = opcao
@@ -96,6 +100,7 @@ function mostrarResultado()
     
     respostas.forEach(resp => (resp.style.display = 'none'))
     btnProx.style.display = 'none'
+    imgPergunta.style.display = 'none'
 
     const primeiraErrada = resumo.find(r => !r.acerto)
     if(primeiraErrada)
