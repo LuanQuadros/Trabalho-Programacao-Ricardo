@@ -15,7 +15,7 @@ export const perguntas = [
     pergunta: 'Quem escreveu "Dom Casmurro"?',
     opcoes: ['Machado de Assis', 'Jorge Amado', 'Clarice Lispector', 'Carlos Drummond de Andrade'],
     resposta: 'Machado de Assis',
-    imagem: "./images/pessoas.jpeg"
+    imagem: "./images/livro.jpeg"
   },
   {
     pergunta: 'Qual a fórmula da água?',
@@ -27,7 +27,7 @@ export const perguntas = [
     pergunta: 'Qual é o idioma oficial do Brasil?',
     opcoes: ['Espanhol', 'Inglês', 'Português', 'Francês'],
     resposta: 'Português',
-    imagem: "./images/livro.jpeg"
+    imagem: "./images/pessoas.jpeg"
   },
   {
     pergunta: 'Qual desses animais é um mamífero?',
